@@ -1,0 +1,7 @@
+C:\Users\s_gan\OneDrive\Documents\Code\ConsoleAppChallenges\ConsoleAppChallenges\bin\Debug\ConsoleAppChallenges.exe.config
+C:\Users\s_gan\OneDrive\Documents\Code\ConsoleAppChallenges\ConsoleAppChallenges\bin\Debug\ConsoleAppChallenges.exe
+C:\Users\s_gan\OneDrive\Documents\Code\ConsoleAppChallenges\ConsoleAppChallenges\bin\Debug\ConsoleAppChallenges.pdb
+C:\Users\s_gan\OneDrive\Documents\Code\ConsoleAppChallenges\ConsoleAppChallenges\obj\Debug\ConsoleAppChallenges.csprojAssemblyReference.cache
+C:\Users\s_gan\OneDrive\Documents\Code\ConsoleAppChallenges\ConsoleAppChallenges\obj\Debug\ConsoleAppChallenges.csproj.CoreCompileInputs.cache
+C:\Users\s_gan\OneDrive\Documents\Code\ConsoleAppChallenges\ConsoleAppChallenges\obj\Debug\ConsoleAppChallenges.exe
+C:\Users\s_gan\OneDrive\Documents\Code\ConsoleAppChallenges\ConsoleAppChallenges\obj\Debug\ConsoleAppChallenges.pdb
