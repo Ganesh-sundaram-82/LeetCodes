@@ -11,9 +11,13 @@ namespace ConsoleAppChallenges
         static void Main(string[] args)
         {
 
-            LongestCommonPrefixs longestCommonPrefixs = new LongestCommonPrefixs();
+            //LongestCommonPrefixs longestCommonPrefixs = new LongestCommonPrefixs();
             //Console.WriteLine(  longestCommonPrefixs.LongestCommonPrefix(new List<string>() {"a", "ab" }.ToArray()));
-            Console.WriteLine(longestCommonPrefixs.LongestCommonPrefix(new List<string>() {"flower","flow","flight","Test" }.ToArray()));
+            //Console.WriteLine(longestCommonPrefixs.LongestCommonPrefix(new List<string>() {"flower","flow","flight","Test" }.ToArray()));
+
+            Console.WriteLine( new Easy.ValidParenthesis().IsValid("}"));
+
+
             Console.ReadLine();
         }
     }
