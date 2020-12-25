@@ -54,24 +54,30 @@ s consists of parentheses only '()[]{}'.
         public bool IsValid(string s)
         {
             Stack<char> vs = new Stack<char>();
-            foreach(var par in s)
+            var paraenthsis = "(){}[]";
+            foreach (var par in s)
             {
-                if (par == '}')
+                if (true)
                 {
-                    if(vs.Count ==0 || vs.Pop() != '{')
-                        return false;
+                    if (par == '}')
+                    {
+                        if (vs.Count == 0 || vs.Pop() != '{')
+                            return false;
+                    }
+                    else if (par == ']')
+                    {
+                        if (vs.Count == 0 || vs.Pop() != '[')
+                            return false;
+                    }
+                    else if (par == ')')
+                    {
+                        if (vs.Count == 0 || vs.Pop() != '(')
+                            return false;
+                    }
+                    else
+                        vs.Push(par);
                 }
-                else if (par == ']') {
-                    if (vs.Count == 0 || vs.Pop() != '[')
-                        return false;
-                }
-                else if (par == ')') { 
-                    if(vs.Count == 0 || vs.Pop() != '(')
-                        return false; }
-                else
-                    vs.Push(par);
             }
-
 
             return vs.Count ==0;
         }

@@ -44,6 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\LongestCommonPrefix.cs" />
+    <Compile Include="Easy\RemoveDuplicatesfromSortedArray.cs" />
+    <Compile Include="Easy\RemoveElement-InputParameter.cs" />
+    <Compile Include="Easy\strStr.cs" />
     <Compile Include="Easy\ValidParenthesis.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
