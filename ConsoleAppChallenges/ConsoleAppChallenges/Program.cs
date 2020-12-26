@@ -19,8 +19,9 @@ namespace ConsoleAppChallenges
             //Console.WriteLine(new Easy.RemoveDuplicatesfromSortedArray().RemoveDuplicates(new List<int> {1,1,2 }.ToArray()));
             //Console.WriteLine(new Easy.RemoveElement_InputParameter().RemoveElement(new List<int>() { 0, 1, 2, 2, 3, 0, 4, 2 }.ToArray(), 2));
 
-            Console.WriteLine(new Easy.strStr().StrStr("", "Test"));
+            //Console.WriteLine(new Easy.strStr().StrStr("", "Test"));
 
+            new Easy.GraphProblem().Process(new List<string>() {"A", "B", "C", "D", "E" }.ToArray());
             Console.ReadLine();
         }
     }

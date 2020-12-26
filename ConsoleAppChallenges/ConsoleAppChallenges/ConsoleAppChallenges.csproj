@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\GraphProblem.cs" />
     <Compile Include="Easy\LongestCommonPrefix.cs" />
     <Compile Include="Easy\RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="Easy\RemoveElement-InputParameter.cs" />
