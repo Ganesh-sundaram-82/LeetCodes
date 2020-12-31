@@ -43,10 +43,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Easy\AddBinarys.cs" />
     <Compile Include="Easy\GraphProblem.cs" />
+    <Compile Include="Easy\LengthOfLastWord.cs" />
     <Compile Include="Easy\LongestCommonPrefix.cs" />
+    <Compile Include="Easy\MaximumSubArray.cs" />
+    <Compile Include="Easy\PlusOne.cs" />
     <Compile Include="Easy\RemoveDuplicatesfromSortedArray.cs" />
     <Compile Include="Easy\RemoveElement-InputParameter.cs" />
+    <Compile Include="Easy\SearchInsertPosition.cs" />
+    <Compile Include="Easy\sqrt.cs" />
     <Compile Include="Easy\strStr.cs" />
     <Compile Include="Easy\ValidParenthesis.cs" />
     <Compile Include="Program.cs" />
@@ -54,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Easy\.editorconfig" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

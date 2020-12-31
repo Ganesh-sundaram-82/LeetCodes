@@ -21,7 +21,33 @@ namespace ConsoleAppChallenges
 
             //Console.WriteLine(new Easy.strStr().StrStr("", "Test"));
 
-            new Easy.GraphProblem().Process(new List<string>() {"A", "B", "C", "D", "E" }.ToArray());
+            ////new Easy.GraphProblem().Process(new List<string>() {"A", "B", "C", "D", "E" }.ToArray());
+
+            ////Console.WriteLine(new Easy.SearchInsertPosition().SearchInsert(new List<int>() { 1}.ToArray(), target: 0));
+
+            // Console.WriteLine(new ConsoleAppChallenges.Easy.MaximumSubArray().MaxSubArray(new List<int>() {1,2,3,4 }.ToArray()));
+            /*
+             * 
+             * 
+             * 0, 1, 2, 3
+             * 1, 2, 3,4
+                1,2,3
+                2,3,4
+                3,4,1
+                4,2,1
+             */
+
+            ////Console.WriteLine(new Easy.LengthOfLastWords().LengthOfLastWord("a "));
+
+            //Console.WriteLine(new Easy.PlusOnes().PlusOne(new List<int>() { 9 }.ToArray()));
+
+            ////var result = 1 ^ 1;
+            ////var result1 = 1 >> 1;
+
+            ////Console.WriteLine($"{1^1}, {1&1 << 1}, {1|1}, {1>>1}, {1 << 1}");
+            ////Console.WriteLine($"{result}, {result1}");
+
+
             Console.ReadLine();
         }
     }
