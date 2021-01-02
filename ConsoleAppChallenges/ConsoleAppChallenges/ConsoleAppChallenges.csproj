@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Easy\AddBinarys.cs" />
+    <Compile Include="Easy\ClimbStairs.cs" />
+    <Compile Include="Easy\FibNumber.cs" />
     <Compile Include="Easy\GraphProblem.cs" />
     <Compile Include="Easy\LengthOfLastWord.cs" />
     <Compile Include="Easy\LongestCommonPrefix.cs" />

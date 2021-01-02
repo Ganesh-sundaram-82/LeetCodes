@@ -47,7 +47,9 @@ namespace ConsoleAppChallenges
             ////Console.WriteLine($"{1^1}, {1&1 << 1}, {1|1}, {1>>1}, {1 << 1}");
             ////Console.WriteLine($"{result}, {result1}");
 
-
+            ////new Easy.FibNumber().FibNum(5);
+            ///
+            Console.WriteLine(new Easy.ClimbStair().ClimbStairs(3));
             Console.ReadLine();
         }
     }
